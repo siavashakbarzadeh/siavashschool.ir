@@ -397,6 +397,17 @@ ul {
     background: var(--primary-600);
 }
 
+.navbar.scrolled .btn-outline {
+    color: var(--primary-600);
+    border-color: var(--primary-600);
+}
+
+.navbar.scrolled .btn-outline:hover {
+    background: var(--primary-50);
+    color: var(--primary-700);
+    border-color: var(--primary-700);
+}
+
 .nav-actions {
     display: flex;
     align-items: center;
@@ -457,6 +468,7 @@ ul {
     background: var(--gradient-hero);
     overflow: hidden;
     padding-top: 80px;
+    padding-bottom: 120px;
 }
 
 .hero-bg-shapes {
@@ -637,7 +649,7 @@ ul {
 .hero-buttons {
     display: flex;
     gap: 16px;
-    margin-bottom: 48px;
+    margin-bottom: 32px;
     animation: fadeInUp 0.8s ease-out 0.3s both;
 }
 
