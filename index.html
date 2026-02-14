@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دبیرستان سیاوش | پرورش نسل آینده‌ساز</title>
+    <meta name="description" content="دبیرستان سیاوش - مرکز آموزشی پیشرو در تربیت نسل آینده‌ساز با بهره‌گیری از اساتید مجرب و امکانات مدرن آموزشی">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== Navbar ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar-inner">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-title">دبیرستان سیاوش</span>
+                    <span class="logo-subtitle">پرورش نسل آینده‌ساز</span>
+                </div>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">صفحه اصلی</a></li>
+                <li><a href="#about" class="nav-link">درباره ما</a></li>
+                <li><a href="#fields" class="nav-link">رشته‌ها</a></li>
+                <li><a href="#teachers" class="nav-link">اساتید</a></li>
+                <li><a href="#news" class="nav-link">اخبار</a></li>
+                <li><a href="#contact" class="nav-link">تماس</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#" class="btn btn-primary btn-sm" id="enrollBtn">ثبت‌نام</a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="منو">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== Hero Section ===== -->
+    <section class="hero" id="home">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+        </div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>رتبه اول آموزشی استان</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">آینده فرزندتان</span>
+                    <span class="title-line title-highlight">از اینجا آغاز می‌شود</span>
+                </h1>
+                <p class="hero-description">
+                    با بیش از ۲۰ سال سابقه درخشان آموزشی، ما متعهد به پرورش استعدادها و آماده‌سازی دانش‌آموزان برای موفقیت در کنکور و زندگی هستیم.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary btn-lg">
+                        <i class="fas fa-paper-plane"></i>
+                        ثبت‌نام کنید
+                    </a>
+                    <a href="#about" class="btn btn-outline btn-lg">
+                        <i class="fas fa-play-circle"></i>
+                        بیشتر بدانید
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="850">0</span>
+                        <span class="stat-label">دانش‌آموز</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="45">0</span>
+                        <span class="stat-label">دبیر مجرب</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="98">0</span>
+                        <span class="stat-label">٪ قبولی کنکور</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="20">0</span>
+                        <span class="stat-label">سال سابقه</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-card">
+                        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c476?w=600&h=700&fit=crop&q=80" alt="دانش‌آموزان دبیرستان" class="hero-image">
+                        <div class="hero-image-overlay"></div>
+                    </div>
+                    <div class="floating-card card-1">
+                        <i class="fas fa-trophy"></i>
+                        <div>
+                            <strong>+۱۲۰</strong>
+                            <span>رتبه زیر ۱۰۰۰</span>
+                        </div>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-microscope"></i>
+                        <div>
+                            <strong>آزمایشگاه مجهز</strong>
+                            <span>فیزیک، شیمی، زیست</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,30 1440,60 L1440,120 L0,120 Z" fill="var(--bg-primary)"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ===== About Section ===== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-info-circle"></i> درباره ما</span>
+                <h2 class="section-title">چرا دبیرستان سیاوش؟</h2>
+                <p class="section-desc">ما با ترکیب روش‌های نوین آموزشی و فضای صمیمی، محیطی ایده‌آل برای رشد و شکوفایی استعدادها فراهم کرده‌ایم.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon icon-blue">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>اساتید مجرب</h3>
+                    <p>تیمی از بهترین دبیران استان با سال‌ها تجربه تدریس و آشنا به جدیدترین متدهای آموزشی</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon icon-emerald">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>آزمایشگاه مجهز</h3>
+                    <p>آزمایشگاه‌های مدرن فیزیک، شیمی و زیست‌شناسی برای تجربه عملی دانش‌آموزان</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon icon-amber">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>فضای دیجیتال</h3>
+                    <p>کلاس‌های هوشمند مجهز به تجهیزات دیجیتال و سیستم آموزش آنلاین اختصاصی</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon icon-rose">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>مشاوره تحصیلی</h3>
+                    <p>تیم مشاوره حرفه‌ای برای هدایت تحصیلی و برنامه‌ریزی آزمون‌های کنکور</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-icon icon-violet">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>فعالیت‌های ورزشی</h3>
+                    <p>سالن ورزشی استاندارد و تیم‌های ورزشی متعدد در رشته‌های مختلف</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-icon icon-sky">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>کتابخانه غنی</h3>
+                    <p>کتابخانه مجهز با هزاران جلد کتاب درسی، کمک‌درسی و منابع علمی روز</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Fields of Study ===== -->
+    <section class="section fields-section" id="fields">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-book"></i> رشته‌های تحصیلی</span>
+                <h2 class="section-title">مسیر موفقیت خود را انتخاب کنید</h2>
+                <p class="section-desc">هر رشته تحصیلی دروازه‌ای به سوی آینده‌ای روشن است. با راهنمایی مشاوران ما، بهترین انتخاب را داشته باشید.</p>
+            </div>
+            <div class="fields-grid">
+                <div class="field-card field-math">
+                    <div class="field-card-bg"></div>
+                    <div class="field-content">
+                        <div class="field-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3>ریاضی فیزیک</h3>
+                        <p>مسیر ورود به مهندسی، علوم کامپیوتر و ریاضیات محض. مناسب دانش‌آموزان تحلیل‌گر.</p>
+                        <ul class="field-highlights">
+                            <li><i class="fas fa-check"></i> ریاضیات پیشرفته</li>
+                            <li><i class="fas fa-check"></i> فیزیک مکانیک و الکتریسیته</li>
+                            <li><i class="fas fa-check"></i> هندسه و جبر</li>
+                        </ul>
+                        <a href="#" class="field-link">اطلاعات بیشتر <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+                <div class="field-card field-science">
+                    <div class="field-card-bg"></div>
+                    <div class="field-content">
+                        <div class="field-icon">
+                            <i class="fas fa-dna"></i>
+                        </div>
+                        <h3>علوم تجربی</h3>
+                        <p>مسیر ورود به پزشکی، داروسازی و علوم زیستی. مناسب علاقه‌مندان به علوم طبیعی.</p>
+                        <ul class="field-highlights">
+                            <li><i class="fas fa-check"></i> زیست‌شناسی پیشرفته</li>
+                            <li><i class="fas fa-check"></i> شیمی آلی و معدنی</li>
+                            <li><i class="fas fa-check"></i> فیزیک پایه</li>
+                        </ul>
+                        <a href="#" class="field-link">اطلاعات بیشتر <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+                <div class="field-card field-humanities">
+                    <div class="field-card-bg"></div>
+                    <div class="field-content">
+                        <div class="field-icon">
+                            <i class="fas fa-balance-scale"></i>
+                        </div>
+                        <h3>علوم انسانی</h3>
+                        <p>مسیر ورود به حقوق، مدیریت و علوم اجتماعی. مناسب ذهن‌های خلاق و تحلیلی.</p>
+                        <ul class="field-highlights">
+                            <li><i class="fas fa-check"></i> ادبیات و فلسفه</li>
+                            <li><i class="fas fa-check"></i> تاریخ و جغرافیا</li>
+                            <li><i class="fas fa-check"></i> روان‌شناسی و جامعه‌شناسی</li>
+                        </ul>
+                        <a href="#" class="field-link">اطلاعات بیشتر <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Teachers Section ===== -->
+    <section class="section teachers-section" id="teachers">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-user-tie"></i> اساتید ما</span>
+                <h2 class="section-title">دبیران برجسته دبیرستان</h2>
+                <p class="section-desc">اساتید ما با عشق به تدریس و تجربه‌ای غنی، بهترین آموزش را به دانش‌آموزان ارائه می‌دهند.</p>
+            </div>
+            <div class="teachers-grid">
+                <div class="teacher-card">
+                    <div class="teacher-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?w=400&h=400&fit=crop&q=80" alt="دکتر احمدی" class="teacher-image">
+                        <div class="teacher-overlay">
+                            <div class="teacher-socials">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h4>دکتر محمد احمدی</h4>
+                        <span class="teacher-subject">دبیر ریاضیات</span>
+                        <p class="teacher-bio">دکترای ریاضی کاربردی از دانشگاه تهران، ۱۵ سال سابقه تدریس</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&q=80" alt="دکتر محمدی" class="teacher-image">
+                        <div class="teacher-overlay">
+                            <div class="teacher-socials">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h4>دکتر سارا محمدی</h4>
+                        <span class="teacher-subject">دبیر فیزیک</span>
+                        <p class="teacher-bio">فوق‌لیسانس فیزیک هسته‌ای، برنده جایزه بهترین دبیر استان</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?w=400&h=400&fit=crop&q=80" alt="مهندس رضایی" class="teacher-image">
+                        <div class="teacher-overlay">
+                            <div class="teacher-socials">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h4>مهندس علی رضایی</h4>
+                        <span class="teacher-subject">دبیر شیمی</span>
+                        <p class="teacher-bio">فوق‌لیسانس شیمی آلی، مؤلف کتاب‌های کمک‌آموزشی کنکور</p>
+                    </div>
+                </div>
+                <div class="teacher-card">
+                    <div class="teacher-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?w=400&h=400&fit=crop&q=80" alt="دکتر کریمی" class="teacher-image">
+                        <div class="teacher-overlay">
+                            <div class="teacher-socials">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fas fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teacher-info">
+                        <h4>دکتر فاطمه کریمی</h4>
+                        <span class="teacher-subject">دبیر زیست‌شناسی</span>
+                        <p class="teacher-bio">دکترای ژنتیک مولکولی، ۱۲ سال تجربه تدریس دبیرستان</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Testimonials ===== -->
+    <section class="section testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-quote-right"></i> نظرات</span>
+                <h2 class="section-title">دانش‌آموزان چه می‌گویند؟</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">دبیرستان سیاوش بهترین انتخاب زندگی من بود. اساتید فوق‌العاده و فضای آموزشی عالی باعث شد رتبه ۵۶ کنکور ریاضی بشم.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">م‌ح</div>
+                        <div>
+                            <strong>محمدحسین نوری</strong>
+                            <span>رتبه ۵۶ کنکور ریاضی ۱۴۰۳</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">مشاوره تحصیلی دبیرستان نقش بسیار مهمی در موفقیت من داشت. برنامه‌ریزی دقیق و حمایت مستمر اساتید بی‌نظیر بود.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ز‌م</div>
+                        <div>
+                            <strong>زهرا میرزایی</strong>
+                            <span>رتبه ۱۲۳ کنکور تجربی ۱۴۰۳</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <p class="testimonial-text">فضای صمیمی و دوستانه دبیرستان باعث شد با انگیزه بیشتری درس بخونم. آزمایشگاه‌ها و کلاس‌های عملی واقعاً تأثیرگذار بودند.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ع‌ر</div>
+                        <div>
+                            <strong>علیرضا حسینی</strong>
+                            <span>رتبه ۸۹ کنکور ریاضی ۱۴۰۲</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== News Section ===== -->
+    <section class="section news-section" id="news">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-newspaper"></i> اخبار</span>
+                <h2 class="section-title">آخرین اخبار و رویدادها</h2>
+                <p class="section-desc">از جدیدترین اخبار، رویدادها و دستاوردهای دبیرستان سیاوش مطلع شوید.</p>
+            </div>
+            <div class="news-grid">
+                <div class="news-card news-card-featured">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?w=800&h=500&fit=crop&q=80" alt="جشن فارغ‌التحصیلی">
+                        <div class="news-category">رویداد</div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> ۲۵ بهمن ۱۴۰۴</span>
+                            <span><i class="fas fa-clock"></i> ۵ دقیقه مطالعه</span>
+                        </div>
+                        <h3>جشن فارغ‌التحصیلی دانش‌آموزان پایه دوازدهم</h3>
+                        <p>مراسم باشکوه فارغ‌التحصیلی با حضور اولیا و مسئولین آموزش و پرورش برگزار شد. در این مراسم از دانش‌آموزان ممتاز تقدیر به عمل آمد.</p>
+                        <a href="#" class="news-read-more">ادامه مطلب <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&h=400&fit=crop&q=80" alt="المپیاد">
+                        <div class="news-category">افتخار</div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> ۱۸ بهمن ۱۴۰۴</span>
+                        </div>
+                        <h3>کسب مدال طلای المپیاد شیمی</h3>
+                        <p>دانش‌آموز برجسته دبیرستان، مدال طلای المپیاد شیمی کشوری را کسب کرد.</p>
+                        <a href="#" class="news-read-more">ادامه مطلب <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+                <div class="news-card">
+                    <div class="news-image">
+                        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop&q=80" alt="ثبت‌نام">
+                        <div class="news-category">اطلاعیه</div>
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span><i class="fas fa-calendar"></i> ۱۰ بهمن ۱۴۰۴</span>
+                        </div>
+                        <h3>آغاز ثبت‌نام سال تحصیلی جدید</h3>
+                        <p>ثبت‌نام دانش‌آموزان جدید در رشته‌های ریاضی، تجربی و انسانی آغاز شد.</p>
+                        <a href="#" class="news-read-more">ادامه مطلب <i class="fas fa-arrow-left"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA Section ===== -->
+    <section class="cta-section">
+        <div class="cta-bg-shapes">
+            <div class="cta-shape cta-shape-1"></div>
+            <div class="cta-shape cta-shape-2"></div>
+        </div>
+        <div class="container cta-content">
+            <h2>آماده‌اید آینده درخشانی بسازید؟</h2>
+            <p>همین حالا برای سال تحصیلی جدید ثبت‌نام کنید و به خانواده بزرگ دبیرستان سیاوش بپیوندید.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-white btn-lg">
+                    <i class="fas fa-user-plus"></i>
+                    ثبت‌نام آنلاین
+                </a>
+                <a href="tel:02112345678" class="btn btn-outline-white btn-lg">
+                    <i class="fas fa-phone"></i>
+                    تماس: ۰۲۱-۱۲۳۴۵۶۷۸
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag"><i class="fas fa-envelope"></i> تماس با ما</span>
+                <h2 class="section-title">با ما در ارتباط باشید</h2>
+                <p class="section-desc">برای کسب اطلاعات بیشتر یا ثبت‌نام، از طریق فرم زیر یا اطلاعات تماس با ما ارتباط برقرار کنید.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fullName">نام و نام خانوادگی</label>
+                                <input type="text" id="fullName" placeholder="مثال: علی احمدی" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">شماره تماس</label>
+                                <input type="tel" id="phone" placeholder="۰۹۱۲۱۲۳۴۵۶۷" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">ایمیل</label>
+                            <input type="email" id="email" placeholder="example@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">موضوع</label>
+                            <select id="subject">
+                                <option value="">انتخاب کنید...</option>
+                                <option value="register">ثبت‌نام</option>
+                                <option value="consult">مشاوره تحصیلی</option>
+                                <option value="visit">بازدید از دبیرستان</option>
+                                <option value="other">سایر موضوعات</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">پیام شما</label>
+                            <textarea id="message" rows="5" placeholder="پیام خود را بنویسید..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i>
+                            ارسال پیام
+                        </button>
+                    </form>
+                </div>
+                <div class="contact-info-wrapper">
+                    <div class="contact-info-card">
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>آدرس</h4>
+                                <p>تهران، خیابان ولیعصر، بالاتر از میدان ونک، کوچه گلستان، پلاک ۱۲</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <h4>تلفن</h4>
+                                <p>۰۲۱-۱۲۳۴۵۶۷۸</p>
+                                <p>۰۲۱-۸۷۶۵۴۳۲۱</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>ایمیل</h4>
+                                <p>info@siavashschool.ir</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4>ساعات فعالیت</h4>
+                                <p>شنبه تا چهارشنبه: ۷:۳۰ - ۱۴:۳۰</p>
+                                <p>پنج‌شنبه: ۷:۳۰ - ۱۲:۰۰</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="map-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.5!2d51.41!3d35.76!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDQ1JzM2LjAiTiA1McKwMjQnMzYuMCJF!5e0!3m2!1sen!2s!4v1" width="100%" height="200" style="border:0; border-radius: 16px;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-title">دبیرستان سیاوش</span>
+                            <span class="logo-subtitle">پرورش نسل آینده‌ساز</span>
+                        </div>
+                    </a>
+                    <p>دبیرستان سیاوش با هدف پرورش نسلی توانمند و خلاق، بستری مناسب برای رشد علمی و اخلاقی دانش‌آموزان فراهم کرده است.</p>
+                    <div class="footer-socials">
+                        <a href="#" aria-label="اینستاگرام"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="تلگرام"><i class="fab fa-telegram"></i></a>
+                        <a href="#" aria-label="واتس‌اپ"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="یوتیوب"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-col">
+                    <h4>دسترسی سریع</h4>
+                    <ul>
+                        <li><a href="#home">صفحه اصلی</a></li>
+                        <li><a href="#about">درباره ما</a></li>
+                        <li><a href="#fields">رشته‌ها</a></li>
+                        <li><a href="#teachers">اساتید</a></li>
+                        <li><a href="#news">اخبار</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>خدمات آموزشی</h4>
+                    <ul>
+                        <li><a href="#">مشاوره تحصیلی</a></li>
+                        <li><a href="#">کلاس‌های فوق‌برنامه</a></li>
+                        <li><a href="#">آزمون‌های آزمایشی</a></li>
+                        <li><a href="#">کتابخانه دیجیتال</a></li>
+                        <li><a href="#">اردوهای علمی</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>خبرنامه</h4>
+                    <p>برای اطلاع از آخرین اخبار و رویدادها، ایمیل خود را ثبت کنید.</p>
+                    <form class="newsletter-form" id="newsletterForm">
+                        <input type="email" placeholder="ایمیل شما..." required>
+                        <button type="submit"><i class="fas fa-arrow-left"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© ۱۴۰۴ دبیرستان سیاوش. تمامی حقوق محفوظ است.</p>
+                <p>طراحی و توسعه با <i class="fas fa-heart" style="color: var(--rose);"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== Back to Top ===== -->
+    <button class="back-to-top" id="backToTop" aria-label="بازگشت به بالا">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
