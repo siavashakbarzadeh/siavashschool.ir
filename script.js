@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ===== Scroll Reveal Animation =====
     const revealElements = document.querySelectorAll(
-        '.feature-card, .field-card, .teacher-card, .testimonial-card, .news-card, .section-header'
+        '.feature-card, .field-card, .teacher-card, .testimonial-card, .news-card, .section-header, .facility-card'
     );
 
     const revealObserver = new IntersectionObserver((entries) => {
